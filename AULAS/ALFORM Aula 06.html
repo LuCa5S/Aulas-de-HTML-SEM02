@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Aula 06</title>
+    </head>
+    <body>
+        <h1>Questionario</h1>
+        <hr />
+        <br /><br />
+        <form method="post" action=":lukascamilo.2018@gmail.com">
+        <label for="nome">Nome<span style="color: red">*</span>:</label>
+        <input type="text" id="nome" required />
+        <label for="Snome">Sobrenome:</label>
+        <input type="text" id="Snome" />
+        <br /><br />
+        <label for="E-Mail">E-Mail</label><br />
+
+        <input size="60" />
+
+        <br /><br /><br /><br />
+        <h2>Destino</h2>
+        <label for="radio" name="reg" id="rg">Rio Grande do Sul</label>
+        <input type="radio" name="reg" id="rg" /><br /><br />
+        <label for="rg" name="reg" id="rg">Canadá</label>
+        <input type="radio" name="reg" id="rg" /><br /><br />
+        <label for="rg" name="reg" id="rg">Arabia Saudita</label>
+        <input type="radio" name="reg" id="rg" /><br />
+        <br />
+        <h3>genero</h3>
+        <label for="radio" name="reg" id="rg">Masculino</label>
+        <input type="radio" name="reg" id="rg" /><br /><br />
+        <label for="radio" name="reg" id="rg">Feminino</label>
+        <input type="radio" name="reg" id="rg" /><br /><br />
+        <label type="radio" name="reg" id="rg">Prefiro nao Identificar</label>
+        <input type="radio" name="reg" id="rg" />
+        <h4>Forma de Pagamento</h4>
+        <select  name="Fpagamento" id="fPagamento">
+            <option value disabled="">Selecione uma forma de pagamento </option>
+            <option value="fp1">Pix</option>
+            <option value="fp2">Crédito</option>
+            <option value="fp3">Débito</option>
+            <option value="fp4">Cheque</option>
+            <option value="fp5">Boleto</option><hr>
+        </select>
+        <h4>Cidades</h4>
+        <label for="cid">Cidades</label>
+        <select name="Destino" id="destino">
+        <datalist id="cidade"></datalist> 
+         <option disabled value="">Selecione seu Destino</option>
+         <option value="fp1">Massachusetts</option>
+         <option value="fp2">Porto Alegre</option>
+         <option value="fp3">Riad</option>
+         <option value="fp4">Outras...</option><br>
+        </select>
+         <h5>Sugestoes para possiveis melhoras</h5>
+       
+            <p>SUGESTOES</p>
+            <textarea name="message" id="txt" rows="10" cols="30" placeholder="SUGESTAO"></textarea>
+        </fieldset><br>
+        
+         
+        <input type="submit" value="Enviar">
+        <br />
+        <br />
+    </body>
+</html>
