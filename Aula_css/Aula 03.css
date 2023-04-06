@@ -1,0 +1,42 @@
+/* Aplicando em todos os elementos */
+*{
+    background-color: yellowgreen;
+}
+
+p{
+    font-size: 20px;
+   
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    text-shadow:10px 10px 10px rgb(193, 44, 44);
+
+}
+.fundo{
+    background-color: chartreuse;
+    font-family: sans-serif;
+    font-size: 25px;
+    
+}
+h1{
+    background-color: aqua;
+}
+h2.fundo {
+
+    background-color: rgb(121, 106, 121);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    border: dashed 3px;
+    
+}
+#fundo{
+    background-color: yellow;
+}
+article{
+    color: rgb(64, 119, 196);
+}
+/* elemento Border */
+h1{
+    border : dotted 3px;
+}

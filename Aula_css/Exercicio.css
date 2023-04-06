@@ -1,0 +1,35 @@
+h1{ 
+    
+    font-size: 20px;
+    text-align: center;
+    border: solid 3px #666;
+    border-radius:inset 60px  ;
+    
+}
+.fundo{
+    border-bottom: solid 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.img {
+    alt: "Porsche";
+    width: 400px;
+    height: 200px;
+    
+}
+figure{
+    width: 400px;
+    margin: auto;
+    border: 2px ridge #000;
+    height: 200px;
+
+ }
+ .figcaption{
+    text-align: center;
+ }
+ body{
+    background-image: url(open-uri20150608-27674-1eblt9q_d27f8dc6.jpeg);
+  background-repeat: no-repeat;
+  background-size: 1300px;
+    
+ }

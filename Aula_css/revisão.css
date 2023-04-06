@@ -1,0 +1,32 @@
+body{
+    
+    background-color: rgb(75, 143, 120);
+    font-size: 25px;
+    line-height: 200%;
+    font-weight: 200%;
+    text-align:left;
+    text-indent: 90px;
+    font-style: italic;
+    
+    
+}
+h1{
+    text-align: center;
+    text-shadow: 10px 10px 10px white;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}   
+.sla {
+    font-size: 20px;
+    text-align: center;
+    line-height: 150px;
+    
+}
+  
+ 
+
+    
