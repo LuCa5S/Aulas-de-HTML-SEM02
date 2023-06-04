@@ -1,0 +1,53 @@
+body{
+    text-align:center;
+    margin: 0;
+    padding: 0 ;
+    justify-content: center;
+    background-color: rgb(120, 95, 160);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+   
+}
+main{
+    
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+input{
+    border-radius: 10px;
+    padding: 4px;
+    border: 15px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .ihmc{
+    font-size: ;
+} */
+#resultado{
+   
+    color: white;
+    text-shadow: white ;
+    border-radius: 10px;
+    font-size: 25px
+}
+.peso{
+    font-size: 30px;
+}
+.altura{
+    font-size: 28px;
+}
+.imcc{
+    font-size: 20px;
+    text-shadow: blue 10px  10px 10px;
+}
