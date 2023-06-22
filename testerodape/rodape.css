@@ -1,0 +1,126 @@
+body{
+    text-align:fsgegev;
+    margin: 0;
+    padding: 0 ;
+    justify-content: center;
+    background-color: rgb(120, 95, 160);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+   
+}
+main{
+    
+    display: flex ;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    
+}
+input{
+    border-radius: 10px;
+    padding: 4px;
+    border: 15px;
+}
+button{
+    border-radius: 20px;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+/* .ihmc{
+    font-size: ;
+} */
+#resultado{
+   
+    color: white;
+    text-shadow: white ;
+    border-radius: 10px;
+    font-size: 25px
+}
+.peso{
+    font-size: 30px;
+}
+.altura{
+    font-size: 28px;
+}
+.imcc{
+    font-size: 20px;
+    text-shadow: blue 10px  10px 10px;
+}
+
+
+
+
+/* RODAPE */
+footer{
+    background-color: dimgray;
+    width: 100%;
+    min-height: 250px;
+    display: flex;
+    height: 70px;
+}
+footer .box{
+width: 320px;
+min-height: 150px;
+padding: 20px;
+}
+.box h2  {
+    color: #000;
+}
+.box ul li  {
+    margin:10px 0px ;
+    list-style: none;
+}
+.box ul li a {
+    color: #ddd;
+    text-decoration: none;
+}
+.box ul li a:hover{
+    color: #fff
+}
+/* .footer{ */
+    /* width: 100%; */
+    /* background: #333; */
+    /* display: flex; */
+    /* height: 70px; */
+    /* justify-content: space-between; */
+    /* padding: 0px 20px; */
+    /* align-items: center; */
+/* } */
+/* footer  .sociais{ */
+    /* display: flex; */
+/* }; */
+/* .sociais .social{ */
+/* width: 40px; */
+/* height: 40px; */
+/* text-align: center; */
+/* background: #ddd; */
+/* line-height: 40px; */
+/* } */
+.social{
+width: 200px;
+height: 70px;
+display: flex;
+justify-content: space-around;
+padding: 20px 0px;
+
+text-align: center;
+line-height: 40px;
+margin: 10px;
+font: weight 3px;
+}
+.boxe{
+    text-align: right;
+}
+.sla{
+    font-size: 30px;
+    align-items: self-end;
+    text-align: left;
+}
+.cont{
+    text-align: left;
+}
